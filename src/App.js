@@ -1,7 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import 'font-awesome/css/font-awesome.min.css'
+import 'font-awesome/css/font-awesome.min.css';
+import Nav from './components/template/Nav';
 
 function App() {
   return (
@@ -13,17 +14,91 @@ function App() {
     <title>Site Portfolio Parallax</title>
     </head>
     <body>
+    <Nav className="navegacao"/>
       <section className="header-site">
         <div className="container">
             <div className="row">
               <div className="col-12">
-                    <h1 className="text-center">BEM VINDO</h1>
-                    <p className="lead text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h1 className="text-center name">Charles Oliveira</h1>
+                    <p className="lead text-center">Estudante em graduação de
+                    <strong> ciência da computação na Unicarioca</strong>
+                    , atualmente estagiário.
+                    <br></br>
+                    Desenvolvedor web.</p>
                     <p className="text-center">
-                      <a href="#" className="btn btn-danger">Cadastre-se</a>
+                      <a href="https://github.com/charlesww1" className="btn btn-danger">Cadastre-se</a>
                     </p>
                 </div>
             </div>
+        </div>
+      </section>
+
+      <section className="content-site1">
+        <div className="container">
+            <div className="row">
+                <div className="col-xs-12">
+                  <h1 className="text-center"> Sobre mim</h1>
+
+                  <p className="text-center">Tenho 22 anos, atualmente cursando ciência da computação na Unicarioca, 
+                  estagiário na empresa Serpro - Serviço Federal de Processamento de Dados.</p>
+                <br></br>
+                </div>
+            </div>
+
+            <div className="row">
+              <div className="col-sm-4">
+                <div className="thumbnail">
+                  <img src="img01.jpg" width="320" height="205"/>
+                    <div className="caption text-center">
+                      <h3>Titulo da Imagem</h3>
+                      <p>Curabitur vitae dignissim lacus. Maecenas scelerisque lacus sed neque vulputate 
+                        molestie. Etiam suscipit at orci sed condimentum. Donec sit amet cursus lectus. </p>
+                    </div>
+                </div>
+              </div>
+
+              <div className="col-sm-4">
+                <div className="thumbnail">
+                  <img src="img02.jpg" width="320" height="205"/>
+                    <div className="caption text-center">
+                      <h3>Titulo da Imagem</h3>
+                      <p>Duis dapibus lacus vitae neque laoreet, nec auctor felis suscipit.
+                        Donec dapibus maximus velit nec bibendum. Morbi laoreet nec nisi faucibus tincidunt.
+                        Curabitur dignissim molestie tellus, ac laoreet enim commodo placerat.
+                        Pellentesque elementum lacus ac libero cursus varius.</p>
+                    </div>
+                </div>
+              </div>
+
+              <div className="col-sm-4">
+                <div className="thumbnail">
+                  <img src="img03.jpg" width="320" height="205"/>
+                    <div className="caption text-center">
+                      <h3>Titulo da Imagem</h3>
+                      <p>Fusce vel malesuada ante. Vestibulum consectetur ex sapien, 
+                        sit amet pretium elit ullamcorper nec. Curabitur dapibus ultricies sem in mollis. 
+                        Pellentesque accumsan non ante id elementum. Sed maximus magna lectus, 
+                        ac venenatis sem tempus ac. Vestibulum erat sapien, lacinia viverra erat eu, 
+                        pulvinar faucibus magna.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section className="img-site2">
+        <div className="container">
+          <div className="row">
+            <div className="col-xs-12">
+              <h1 className="text-center">Orci varius natoque penatibus</h1>
+              <p className="lead text-center">Cras aliquet, arcu ut imperdiet porttitor, orci enim maximus lectus, 
+              vitae ullamcorper felis tortor ut mauris. Maecenas nec nunc in urna tincidunt commodo in vel nunc. 
+              Cras in augue vitae est placerat interdum. Vestibulum sit amet dolor et ligula fermentum congue. 
+              Proin porttitor tincidunt leo nec pretium. In nisi enim, euismod nec ante nec, dignissim ultrices neque. 
+              Nulla ultricies tellus vel congue vulputate. Morbi efficitur auctor dui, vitae pellentesque elit lacinia a</p>
+            </div>
+          </div>
         </div>
       </section>
 

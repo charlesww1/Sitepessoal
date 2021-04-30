@@ -1,0 +1,24 @@
+.menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 9px 0;
+    color: #FFFF;
+}
+
+.icon1 {
+    padding-left: 40%;
+}
+
+.icon2 {
+    padding-left: 1%;
+}
+
+.icon3 {
+    padding-left: 1%;
+}
+
+.icon4 {
+    padding-left: 1%;
+}

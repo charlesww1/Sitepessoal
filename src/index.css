@@ -12,15 +12,32 @@ code {
     monospace;
 }
 
+.name {
+  color: white;
+  font-size: 55px;
+  font-style: initial;
+}
+
 .header-site {
-  background-image: url(./img.jpg);
+  background-image: url(./img04.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: white;
+  font-family: monospace;
+  color: rgb(221, 217, 217);
   padding-top: 300px;
   padding-bottom: 300px;
+}
+
+strong {
+  color: white;
+}
+
+.content-site1 {
+  background-color: gray;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .content-site {
@@ -30,6 +47,17 @@ code {
 
 .img-site {
   background-image: url(./img02.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: white;
+}
+
+.img-site2 {
+  background-image: url(./img03.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
